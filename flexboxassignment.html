@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Page</title>
+    <style>
+        .flex-container-super{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-container{
+            display: flex;
+            background-color: white;
+            border: 2px solid black;
+             justify-content: center; 
+             align-items: baseline;
+            width: 15%;
+
+        }
+
+        .flex-container  div{
+            background-color: rgb(131, 231, 109);
+            border: 2px solid black;
+            width: 75%;
+            height: 120px;
+            margin: 10px;
+            padding: 10px;
+            flex-direction:column;
+            border: 2px solid black;
+        }
+
+        .flex-container1{
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                width: fit-content;
+                height: 300px;
+                border: 2px solid black;
+            }
+
+        .flex-container1 div{
+                margin: 20px;
+                padding: 10px;
+                width: 170px;
+                line-height: 10px;
+                background-color: orange;
+                border: 2px solid black;
+            }
+
+            .flex-container3 {
+                display:flex;
+                background-color: white;
+                border: 2px solid black;
+                flex-direction: column;
+                height:fit-content;
+                
+                
+            }
+
+            .flex-container3-top {
+                display:flex;
+                flex-direction: row;
+                
+            }
+            .flex-container3-top > div {
+                align-items: stretch;
+                background-color: lightblue;
+                margin: 10px;
+                width:150px;
+                height: 100px;
+                border: 2px solid white;
+            }
+            .flex-container-bottom {
+                display:flex;
+                flex-direction: row;
+                justify-content: center; 
+            }
+            .flex-container-bottom > div {
+                background-color: grey;
+                margin: 10px;
+                width:150px;
+                height: 100px;
+                border: 2px solid white;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container-super">
+    <div class="flex-container">
+        <div style="flex-grow: 4"> </div>
+        <div style="flex-grow: 4"> </div>
+        <div style="flex-grow: 4"> </div>
+        <div style="flex-grow: 4"> </div> 
+    </div>
+
+    <div>
+    <div class="flex-container1">
+        <div></div>
+        <div style="align-self: center; height: 30px;"> </div>
+        <div> </div>
+        <div style="align-self: flex-start; height: 30px;"> </div>    
+        <div style="align-self: flex-end; height: 30px;"></div>
+    </div>
+
+    <div class = "flex-container3">
+        <div class="flex-container3-top">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div style="flex-grow: 16;">
+
+            </div>
+        </div>
+        <div class="flex-container-bottom">
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        .one{
+            overflow:auto;
+        }
+        #two{
+            float: none;
+            width: auto;
+        }
+        .menuitem{
+            color: red;
+            background-color: pink;
+            border: 20x solid green;
+            margin:5px;
+            padding:3px;
+        }
+
+
+        @media screen and (min-width:480px)
+        {
+        main{
+            margin-left: 200px;
+        }
+        #two{
+            width: 200px;
+            float: left;
+        }
+        body{
+            background-color: aqua;
+        }
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione maiores cupiditate iste omnis error libero sequi velit eum minima! Eveniet aspernatur cumque, molestias porro rem voluptatibus doloremque pariatur ipsam itaque?</p>
+<div class="one">
+    <div id="two">
+        <ul id="menulist">
+            <li class="menuitem">A</li>
+            <li class="menuitem">B</li>
+            <li class="menuitem">C</li>
+            <li class="menuitem">D</li>
+            <li class="menuitem">E</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

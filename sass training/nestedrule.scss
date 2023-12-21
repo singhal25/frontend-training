@@ -1,0 +1,19 @@
+.container{
+    h1{
+        color:red
+    }
+    p{
+        color:red;
+    }
+}
+
+.box{
+    h2{
+        color: aqua;
+    }
+}
+a{
+    color:black;
+    &:hover {background-color: red;}
+    &:active {background-color: yellow;}
+}

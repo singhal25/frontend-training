@@ -1,0 +1,23 @@
+/* Common styles for all user types */
+.top-content {
+  /* Your common styles */
+}
+
+.navbar a {
+  /* Common navbar styles */
+}
+
+.grid-container {
+  /* Common grid-container styles */
+}
+
+/* Premium User Styles */
+.premium .navbar a {
+  color: red; /* Navbar items are red for premium users */
+}
+
+.premium .offer {
+  background-image: url(electronics_offer.jpg); /* Electronics offer image for premium users */
+  border: 10px solid blue; /* 10px solid blue border with shadow */
+  box-shadow: 0 0 10px blue;
+}/*# sourceMappingURL=premiumsupernormalgridassignment.css.map */

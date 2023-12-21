@@ -1,0 +1,134 @@
+
+p{
+    color: aqua;
+}
+h2{
+    color: yellow;
+}
+ol li{
+    color:cadetblue;
+    
+}
+#div1{
+    width: 300px;
+  
+    padding: 30px;
+    border: 20px solid green;
+    margin: 70px;
+    background-color: coral;
+    border-style: outset;
+    
+
+
+
+     
+}
+#div2{
+    width: 300px;
+    height: 300px;
+    padding: auto;
+    border: 20px solid green;
+    margin: 70px;
+    background-color: coral;
+    border-top-right-radius:150px;
+    border-bottom-right-radius:150px;
+
+
+
+     
+}
+.static{
+    position: static;
+    border:2px solid red;
+}
+.relative{
+    position:relative;
+    left:40px;
+    top:50px;
+    border:2px solid blue;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 200px;
+    border: 2px solid green;
+}
+.relative1{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    left: 150px;
+    top: 50px;
+    border:2px solid blue;
+}
+.absolute{
+    position:absolute;
+    width: 200px;
+    height: 150px;
+    top: 170px;
+    right: 400px;
+    border: 2px dashed rgb(red, green, blue);
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    border:solid blue;
+    background-color: pink;
+}
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    left: 200px;
+}
+
+.child {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 150px; 
+    left: 300px;
+}
+.parent1 {
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    position: relative;
+    top: 100px;
+    left: 400px;
+
+}
+
+.child1 {
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px; 
+    left:50px;
+    bottom: 50px;
+}
+
+.parent2 {
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    position: relative;
+    top: 200px;
+    left:400px;
+
+}
+
+.child2 {
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    position: fixed;
+    top: 100px; 
+    left:100px;
+    bottom: 200px;
+}

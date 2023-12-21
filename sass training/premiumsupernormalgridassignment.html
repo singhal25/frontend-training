@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazom page</title>
+    <link rel="stylesheet" href="premiumsupernormalgridassignment.css">
+    <style>
+        .top-content {
+            display: flex; 
+            align-items: center;
+            background-color: black;
+            width: 100%;
+            height: 50px;
+            padding-inline: 10px; 
+        }
+
+        .logo img {
+            width: 100px; 
+       }
+
+       .top-content input{
+            width: 600px;
+            height: 30px;
+            margin: 60px;
+            padding-left: 450px;
+            
+       }
+       nav {
+            background-color: white; 
+        }
+
+        .navbar {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .navbar li {
+            margin: 0;
+            padding-inline: 30px;
+            font-size: 25px;
+        }
+
+        .navbar a {
+            display: block;
+            padding: 10px 20px; 
+            color: black;
+            text-decoration: none;
+            border: 1px solid transparent; 
+            transition: border-color 0.3s; 
+        }
+
+        .navbar a:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .offer{
+            width: 100%;
+            height: 430px;
+            background-image:url(deals2.jpg);
+            background-position: center center;
+            background-size: cover;
+            border: 1px solid black;
+        }
+
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 350px 350px 350px 350px;
+            gap: 20px;
+            border: 1px solid white;
+            background-color: rgb(233, 109, 198); 
+            padding-left: 20px;
+        }
+    
+        .grid-column {
+            display: grid;
+            border: 1px solid white;
+            grid-template-columns: auto auto;
+            background-color: white;
+            justify-items: center; 
+            align-items: center;  
+            padding-top: 10px;
+        }
+
+        .image img {
+        width: 150px;
+        height: 200px;
+        }
+
+        .image p {
+        margin: 0;
+        text-align: center;
+        }
+        
+        .grid-container-name{
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        
+        .grid-column1{
+            display: grid;
+            border: 1px solid black;
+            grid-template-columns: auto;
+            background-color: white;
+            justify-items: center; 
+            align-items: center;  
+            padding-top: 10px;
+        }
+
+        .yellow-button {
+                background-color: yellow;
+                color: black;
+                width: 310px;
+                padding: 10px 20px; 
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div class="top-content">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgqIOdlerpRXRxGWggYFvyCXhWPjhnueoNsRe23rHj&s" alt="Amazon logo">
+        </div>
+        <div>
+            <p style="color: aliceblue; padding-left: 50px;">Update Location</p>
+        </div>
+        <div class="sear">
+            <input type="text" name="Search" id="Search" placeholder="Search Amazon.in"/>
+        </div>
+    </div>   
+    
+    <div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="./Secondtask.html">Cosmetics</a></li>
+                <li><a href="./Secondtask.html">Electronics</a></li>
+                <li><a href="./Secondtask.html">HomeKitchen</a></li>
+                <li><a href="./Secondtask.html">Mobiles</a></li>
+                <li><a href="./Secondtask.html">Gift Idea</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="offer"> </div>
+
+    <div class="grid-container">
+
+        <div class="grid-column">
+            <h2 class="grid-container-name">Shoes Price $25 | Shoes for Men and Womens</h2>
+                <div class="image">
+                    <img src="shoes1.jpg" alt="shoes 1">
+                    <p>Causaul Shose</p>
+                </div>
+                <div class="image">
+                    <img src="shoes2.jpg" alt="shose 2">
+                    <p>Formals Shoes</p>
+                </div>
+                <div class="image">
+                    <img src="shoe4.jpg" alt="shoes 3">
+                    <p>Black Men Shoes</p>
+                </div>
+                <div class="image">
+                    <img src="shoe4.jpg
+                    " alt="shoes 4">
+                    <p>White Men Shoes</p>
+        </div>
+    </div>
+
+    <div class="grid-column">
+        <h2 class="grid-container-name">Sweets for Diwali | start from $10 to $40</h2>
+            <div class="image">
+                <img src="diwali3.jpg" alt="shoes 1">
+                <p>Sweets Diwali sweets</p>
+            </div>
+            <div class="image">
+                <img src="diwal1.jpg" alt="shose 2" >
+                <p>Sweets Diwali sweets</p>
+            </div>
+            <div class="image">
+                <img src="diwali2.jpg" alt="shoes 3" >
+                <p>Sweets Diwali sweets</p>
+            </div>
+            <div class="image">
+            <img src="diwali4.jpg" alt="shoes 4" >
+            <p>Sweets Diwali sweets</p>
+    </div>
+</div>
+
+<div class="grid-column">
+    <h2 class="grid-container-name">Mobiles and Electronics items | Best Sale</h2>
+        <div class="image">
+            <img src="iphonepromax.jpg" alt="shoes 1">
+            <p>Iphone 14 pro max</p>
+        </div>
+        <div class="image">
+            <img src="vivo.jpg" alt="shose 2">
+            <p>vivo</p>
+        </div>
+        <div class="image">
+            <img src="redmi.jpg" alt="shoes 3">
+            <p>RedMi Max pro 5</p>
+        </div>
+        <div class="image">
+        <img src="oppo.jpg" alt="shoes 4" >
+        <p>oppo</p>
+</div>
+</div>
+
+<div class="grid-column1 " style="grid-template-rows: 150px 300px; border: 1px solid black;">
+    <div style="border-top: 1px solid rgb(70, 68, 68); border-bottom: 1px solid rgb(70, 68, 68); padding: 10px;">
+    <h2 class="grid-container-name">Sign in for your best Experience</h2>
+    <button class="yellow-button" >Sign in Securely</button>
+    </div>
+
+    <div class="mobile">
+        <img src="offermobile.jpg" alt="Offer mobile">
+
+    </div>
+
+       
+</div>    
+</div>
+<div class="premium"></div>
+<div class="super"></div>
+<div class="normal"></div>
+</body>
+</html>

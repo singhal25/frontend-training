@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>p::first-letter{
+            color: blue;
+        }
+       div ~ p:nth-child(even)::first-letter{
+            color:orange;
+        }
+        div::before{
+            content: "welcome";
+            color:aqua;
+        }
+       div ~p::after{
+        content:"bye";
+        color:red;
+       }
+        div p::first-line{
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse in totam facere iste debitis assumenda, aperiam non labore consectetur! Nulla illo nam delectus reprehenderit quasi cum, repellat consequatur corrupti vitae dolorum. Facilis natus soluta non velit est recusandae architecto.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui hic veritatis unde doloremque iure, quos nihil nobis. Aperiam voluptatibus veniam optio consequatur. Inventore labore delectus iste similique autem voluptatum consequuntur!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum obcaecati, maiores recusandae doloribus dolor laboriosam nihil dicta accusamus, iure dignissimos ullam id exercitationem sint dolorum quidem fugiat eveniet earum veniam.
+        <h5>default text</h5>
+        <p>text</p>
+        <p>text</p>
+        </p>
+
+    </div>
+    <div>
+        <p>defaulut text field</p>
+        <p>default text field</p>
+    </div>
+    <div>
+        <p>defaulut text field</p>
+        <p>default text field</p>
+    </div>
+    <div>
+        <p>defaulut text field</p>
+        <p>default text field</p>
+    </div>
+    <div>
+        <p>defaulut text field</p>
+        <p>default text field</p>
+    </div>
+    
+</body>
+</html>

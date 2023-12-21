@@ -1,0 +1,22 @@
+.div1{
+    color:red;
+    font: size 20px;
+}
+.div2{
+    @extend .div1;
+}
+.div3{
+    @extend .div1;
+
+}
+.sub1{
+    color:blue;
+    font-size: 30px;
+    font-style: italic;
+}
+.sub2{
+    @extend .sub1
+}
+.sub3{
+    @extend .sub1
+}

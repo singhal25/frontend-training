@@ -1,0 +1,14 @@
+.div div{
+    
+    color: green;
+    font-size:20px;
+    font-family: sans-serif;
+
+}
+#div2{
+    @extend #div1;
+    color: blue;
+    font-style: italic;
+
+
+}

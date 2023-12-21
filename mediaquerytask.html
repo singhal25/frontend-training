@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Task</title>
+    <style>
+
+            .container{
+                background-color: grey;
+                height: 400px;
+                width: 400px;
+                color:black;
+                border: 2px solid black;
+            }
+            .container-div1{
+                background-color:beige;
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin: 10px;
+                padding: 10px;
+            }
+            .container-div2{
+                background-color:violet;
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin: 10px;
+                padding: 10px;
+            }
+            @media screen and (min-width:760px) {
+                .container{
+                background-color: green;
+                box-sizing: border-box;
+                border: 2px solid black;
+                } 
+                .container-div2{
+                background-color: rgb(165, 165, 223);
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin-left: 250px;
+                padding: 10px;
+            }
+            }
+            @media screen and (min-width:1280px) {
+                .container{
+                background-color: grey;
+                box-sizing: border-box;
+                border: 2px solid black;
+                }  
+                .container-div1{
+                background-color: rgb(233, 233, 150);
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin-left: 250px;
+                padding: 10px;
+            }
+                .container-div2{
+                background-color: violet;
+                border: 2px solid black;
+                width: 100px;
+                height: 50px;
+                margin-left: 250px;
+                padding: 10px;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-div1">
+                <p>Lorem ipsum dolor sit amet </p>
+            </div>
+            <br><br>
+            <div class="container-div2">
+                <p>Lorem ipsum dolor sit amet </p>
+            </div>
+            <br><br><br><br><br><br>
+        </div>
+    </body>
+</html>
+
+    <!-- </style>
+</head>
+<body>
+    <div class="container">
+        <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis!</p>
+    </div>
+        <div class="para1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quod?</p>
+        </div>
+
+    </div>
+</body>
+</html> -->

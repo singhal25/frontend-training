@@ -1,0 +1,7 @@
+@each $color,$border,$color-1 in (aqua,dotted,10px),(red,solid,20px),(green,double,green){
+    .#{$color}{
+        background-color: $color;
+        border: $border;
+        color: $color-1;
+    }
+}

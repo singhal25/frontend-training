@@ -1,0 +1,20 @@
+div p::first-letter {
+  color: blue;
+}
+div p:nth-child(even)::first-letter {
+  color: orange;
+}
+div p::before {
+  content: "Welcome ";
+  color: brown;
+}
+
+div ~ p::after {
+  content: " Bye";
+  color: blue;
+}
+
+div p::first-line {
+  font-size: 20px;
+  color: green;
+}/*# sourceMappingURL=assignment.css.map */

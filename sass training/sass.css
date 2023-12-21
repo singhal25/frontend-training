@@ -1,0 +1,15 @@
+div > div {
+  padding: 2rem;
+}
+
+div:nth-child(1) {
+  background: #823434;
+}
+
+div:nth-child(2) {
+  background: rgb(166, 67, 67);
+}
+
+div:nth-child(3) {
+  background: #be5e5e;
+}/*# sourceMappingURL=sass.css.map */

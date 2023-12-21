@@ -1,0 +1,51 @@
+/* Common styles for all user types */
+.top-content {
+    /* Your common styles */
+}
+
+.navbar a {
+    /* Common navbar styles */
+}
+
+.grid-container {
+    /* Common grid-container styles */
+}
+
+/* Premium User Styles */
+.premium .navbar a {
+    color: red; /* Navbar items are red for premium users */
+}
+
+.premium .offer {
+    background-image: url(electronics_offer.jpg); /* Electronics offer image for premium users */
+    border: 10px solid blue; /* 10px solid blue border with shadow */
+    box-shadow: 0 0 10px blue;
+}
+
+// /* Super User Styles */
+// .super .navbar a:hover {
+//     background-color: blue; /* Navbar items are blue on hover for super users */
+// }
+
+// .super .offer {
+//     background-image: url(cosmetics_offer.jpg); /* Cosmetics offer image for super users */
+//     border: 15px solid red; /* 15px solid red border with shadow */
+//     box-shadow: 0 0 10px red;
+// }
+
+// /* Normal User Styles */
+// .normal .navbar a:hover {
+//     background-color: orange; /* Navbar items are orange on hover for normal users */
+// }
+
+// .normal .offer {
+//     background-image: url(kitchen_accessories_offer.jpg); /* Kitchen accessories offer image for normal users */
+// }
+
+// .normal .grid-container {
+//     background-color: crimson; /* Crimson background for the grid-container for normal users */
+// }
+
+// /* Additional styles for each user type as needed */
+
+// /* The rest of your SCSS styles */

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .grid-container{
+        display:grid;
+        grid-template-columns:350px 350px 350px 350px;
+        gap:20px;
+        background-color: aqua;
+        border:2px solid black;
+        
+
+
+     }
+     .grid-item{
+        display:grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-items: center;
+        background-color: white;
+        border:1px solid black;
+        padding-top: 20px;
+
+     }
+     .name{
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+     }
+     .image{
+        width:150px;
+        height:200px;
+     }
+     
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2 class="name">electronics</h2>
+            <div class="image">
+                <img src="oppo.jpg">
+            </div>
+
+            <div class="image">
+                <img src="oppo.jpg">
+            </div>
+            <div class="image">
+                <img src="oppo.jpg">
+            </div>
+            <div class="image">
+                <img src="oppo.jpg">
+                <p>20% off on mobile</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    
+    
+</body>
+</html>

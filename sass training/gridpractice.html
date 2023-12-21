@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .grid-container {
+            display: grid;
+            grid-template-columns: 350px 350px 350px;
+            gap: 20px;
+            border: 1px solid white;
+            background-color: rgb(233, 109, 198); 
+            padding-left: 20px;
+        }
+        .grid-column{
+            background-color: white;
+            border:1px solid white;
+            grid-template-columns: auto auto auto;
+            gap:20px;
+            justify-items: center;
+            align-items: center;
+            padding-left: 20px;
+        }
+        .image img{
+
+            height:px;
+            width: 100px;
+        }
+
+.heading{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+
+
+
+
+        </style>
+
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-column">
+<h2 class="heading">appliances</h2>
+<div class="image"><img src="oppo.jpg">
+
+    <img  src="vivo.jpg">
+    <img src="redmi.jpg">
+    <img src="deals2.jpg">
+    </div>
+
+<p>ayush</p>
+        </div>
+        <div class="grid-column"></div>
+        <div class="grid-column"></div>
+    </div>
+    
+</body>
+</html>
